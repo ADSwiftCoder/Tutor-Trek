@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3E948362AAC891500B4798A /* Tutor_TrekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E948352AAC891500B4798A /* Tutor_TrekApp.swift */; };
+		D3E948382AAC891500B4798A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E948372AAC891500B4798A /* ContentView.swift */; };
+		D3E9483A2AAC891600B4798A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E948392AAC891600B4798A /* Assets.xcassets */; };
+		D3E9483D2AAC891600B4798A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E9483C2AAC891600B4798A /* Preview Assets.xcassets */; };
+		D3E948472AAC891600B4798A /* Tutor_TrekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E948462AAC891600B4798A /* Tutor_TrekTests.swift */; };
+		D3E948512AAC891600B4798A /* Tutor_TrekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E948502AAC891600B4798A /* Tutor_TrekUITests.swift */; };
+		D3E948532AAC891600B4798A /* Tutor_TrekUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E948522AAC891600B4798A /* Tutor_TrekUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3E948432AAC891600B4798A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3E9482A2AAC891500B4798A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3E948312AAC891500B4798A;
+			remoteInfo = "Tutor Trek";
+		};
+		D3E9484D2AAC891600B4798A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3E9482A2AAC891500B4798A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3E948312AAC891500B4798A;
+			remoteInfo = "Tutor Trek";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3E948322AAC891500B4798A /* Tutor Trek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutor Trek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E948352AAC891500B4798A /* Tutor_TrekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor_TrekApp.swift; sourceTree = "<group>"; };
+		D3E948372AAC891500B4798A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3E948392AAC891600B4798A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3E9483C2AAC891600B4798A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3E948422AAC891600B4798A /* Tutor TrekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutor TrekTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E948462AAC891600B4798A /* Tutor_TrekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor_TrekTests.swift; sourceTree = "<group>"; };
+		D3E9484C2AAC891600B4798A /* Tutor TrekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutor TrekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E948502AAC891600B4798A /* Tutor_TrekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor_TrekUITests.swift; sourceTree = "<group>"; };
+		D3E948522AAC891600B4798A /* Tutor_TrekUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor_TrekUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E9482F2AAC891500B4798A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E9483F2AAC891600B4798A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E948492AAC891600B4798A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3E948292AAC891500B4798A = {
+			isa = PBXGroup;
+			children = (
+				D3E948342AAC891500B4798A /* Tutor Trek */,
+				D3E948452AAC891600B4798A /* Tutor TrekTests */,
+				D3E9484F2AAC891600B4798A /* Tutor TrekUITests */,
+				D3E948332AAC891500B4798A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E948332AAC891500B4798A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E948322AAC891500B4798A /* Tutor Trek.app */,
+				D3E948422AAC891600B4798A /* Tutor TrekTests.xctest */,
+				D3E9484C2AAC891600B4798A /* Tutor TrekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E948342AAC891500B4798A /* Tutor Trek */ = {
+			isa = PBXGroup;
+			children = (
+				D3E948352AAC891500B4798A /* Tutor_TrekApp.swift */,
+				D3E948372AAC891500B4798A /* ContentView.swift */,
+				D3E948392AAC891600B4798A /* Assets.xcassets */,
+				D3E9483B2AAC891600B4798A /* Preview Content */,
+			);
+			path = "Tutor Trek";
+			sourceTree = "<group>";
+		};
+		D3E9483B2AAC891600B4798A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9483C2AAC891600B4798A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3E948452AAC891600B4798A /* Tutor TrekTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3E948462AAC891600B4798A /* Tutor_TrekTests.swift */,
+			);
+			path = "Tutor TrekTests";
+			sourceTree = "<group>";
+		};
+		D3E9484F2AAC891600B4798A /* Tutor TrekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3E948502AAC891600B4798A /* Tutor_TrekUITests.swift */,
+				D3E948522AAC891600B4798A /* Tutor_TrekUITestsLaunchTests.swift */,
+			);
+			path = "Tutor TrekUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E948312AAC891500B4798A /* Tutor Trek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E948562AAC891600B4798A /* Build configuration list for PBXNativeTarget "Tutor Trek" */;
+			buildPhases = (
+				D3E9482E2AAC891500B4798A /* Sources */,
+				D3E9482F2AAC891500B4798A /* Frameworks */,
+				D3E948302AAC891500B4798A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tutor Trek";
+			productName = "Tutor Trek";
+			productReference = D3E948322AAC891500B4798A /* Tutor Trek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3E948412AAC891600B4798A /* Tutor TrekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E948592AAC891600B4798A /* Build configuration list for PBXNativeTarget "Tutor TrekTests" */;
+			buildPhases = (
+				D3E9483E2AAC891600B4798A /* Sources */,
+				D3E9483F2AAC891600B4798A /* Frameworks */,
+				D3E948402AAC891600B4798A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3E948442AAC891600B4798A /* PBXTargetDependency */,
+			);
+			name = "Tutor TrekTests";
+			productName = "Tutor TrekTests";
+			productReference = D3E948422AAC891600B4798A /* Tutor TrekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3E9484B2AAC891600B4798A /* Tutor TrekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E9485C2AAC891600B4798A /* Build configuration list for PBXNativeTarget "Tutor TrekUITests" */;
+			buildPhases = (
+				D3E948482AAC891600B4798A /* Sources */,
+				D3E948492AAC891600B4798A /* Frameworks */,
+				D3E9484A2AAC891600B4798A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3E9484E2AAC891600B4798A /* PBXTargetDependency */,
+			);
+			name = "Tutor TrekUITests";
+			productName = "Tutor TrekUITests";
+			productReference = D3E9484C2AAC891600B4798A /* Tutor TrekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E9482A2AAC891500B4798A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D3E948312AAC891500B4798A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D3E948412AAC891600B4798A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D3E948312AAC891500B4798A;
+					};
+					D3E9484B2AAC891600B4798A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D3E948312AAC891500B4798A;
+					};
+				};
+			};
+			buildConfigurationList = D3E9482D2AAC891500B4798A /* Build configuration list for PBXProject "Tutor Trek" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3E948292AAC891500B4798A;
+			productRefGroup = D3E948332AAC891500B4798A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E948312AAC891500B4798A /* Tutor Trek */,
+				D3E948412AAC891600B4798A /* Tutor TrekTests */,
+				D3E9484B2AAC891600B4798A /* Tutor TrekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E948302AAC891500B4798A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E9483D2AAC891600B4798A /* Preview Assets.xcassets in Resources */,
+				D3E9483A2AAC891600B4798A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E948402AAC891600B4798A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E9484A2AAC891600B4798A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E9482E2AAC891500B4798A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E948382AAC891500B4798A /* ContentView.swift in Sources */,
+				D3E948362AAC891500B4798A /* Tutor_TrekApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E9483E2AAC891600B4798A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E948472AAC891600B4798A /* Tutor_TrekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E948482AAC891600B4798A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E948512AAC891600B4798A /* Tutor_TrekUITests.swift in Sources */,
+				D3E948532AAC891600B4798A /* Tutor_TrekUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3E948442AAC891600B4798A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3E948312AAC891500B4798A /* Tutor Trek */;
+			targetProxy = D3E948432AAC891600B4798A /* PBXContainerItemProxy */;
+		};
+		D3E9484E2AAC891600B4798A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3E948312AAC891500B4798A /* Tutor Trek */;
+			targetProxy = D3E9484D2AAC891600B4798A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3E948542AAC891600B4798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3E948552AAC891600B4798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E948572AAC891600B4798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tutor Trek/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Tutor-Trek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3E948582AAC891600B4798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tutor Trek/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Tutor-Trek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3E9485A2AAC891600B4798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Tutor-TrekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutor Trek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tutor Trek";
+			};
+			name = Debug;
+		};
+		D3E9485B2AAC891600B4798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Tutor-TrekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutor Trek.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tutor Trek";
+			};
+			name = Release;
+		};
+		D3E9485D2AAC891600B4798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Tutor-TrekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tutor Trek";
+			};
+			name = Debug;
+		};
+		D3E9485E2AAC891600B4798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FH6SZWG67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AD.Tutor-TrekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tutor Trek";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E9482D2AAC891500B4798A /* Build configuration list for PBXProject "Tutor Trek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E948542AAC891600B4798A /* Debug */,
+				D3E948552AAC891600B4798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E948562AAC891600B4798A /* Build configuration list for PBXNativeTarget "Tutor Trek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E948572AAC891600B4798A /* Debug */,
+				D3E948582AAC891600B4798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E948592AAC891600B4798A /* Build configuration list for PBXNativeTarget "Tutor TrekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E9485A2AAC891600B4798A /* Debug */,
+				D3E9485B2AAC891600B4798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E9485C2AAC891600B4798A /* Build configuration list for PBXNativeTarget "Tutor TrekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E9485D2AAC891600B4798A /* Debug */,
+				D3E9485E2AAC891600B4798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E9482A2AAC891500B4798A /* Project object */;
+}
